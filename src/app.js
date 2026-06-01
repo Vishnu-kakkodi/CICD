@@ -1,9 +1,9 @@
 const express = require("express");
 const dotenv = require("dotenv");
 
-dotenv.config();
+// dotenv.config();
 
-const app = express();
+// const app = express();
 
 app.get("/", (req, res) => {
   res.json({
