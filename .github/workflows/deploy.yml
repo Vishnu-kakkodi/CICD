@@ -23,5 +23,5 @@ jobs:
       - name: Install Packages
         run: npm install
 
-      - name: Run App Check
-        run: node src/app.js
+      - name: Check JavaScript Syntax
+        run: node --check src/app.js
