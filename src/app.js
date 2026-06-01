@@ -13,6 +13,9 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/health", (req, res) => {
+  res.send("API Healthy");
+});
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
